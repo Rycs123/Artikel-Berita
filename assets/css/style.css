@@ -34,6 +34,18 @@ a:hover {
     font-size: 12px;
 }
 
+.navbar-toggler-icon {
+    background-image: url(../vendor/bootstrap-icons/icons/list-task.svg);
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.navbar-brand a:hover {
+    color: #007bff; /* Warna garis bawah saat dihover */
+    transition: width 0.3s ease-in-out; /* Animasi lebar garis bawah */
+    text-decoration: none;
+}
+
 i {
     color: white;
     cursor: pointer;

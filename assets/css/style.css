@@ -1,0 +1,90 @@
+* {
+    font-family: Inter;
+}
+
+body,
+.navDropDown {
+    background-color: black;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.navClass a {
+    color: white;
+}
+
+.search {
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+.navbar-nav li {
+    font-size: 12px;
+}
+
+i {
+    color: white;
+    cursor: pointer;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+}
+
+.berita-terkini {
+    border: 3px solid rgb(18, 171, 222);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.populer {
+    border: 3px solid rgb(18, 171, 222);
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1190px) {
+    .navbar-nav li {
+        display: flex;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar-nav li {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .navbar-nav li {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-nav li {
+        display: flex;
+    }
+}
+
+@media (max-width: 767px) {
+    .group-nav {
+        display: flex;
+    }
+    .navbar-brand img {
+        width: 75%;
+    }
+}

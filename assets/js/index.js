@@ -53,7 +53,7 @@ toggle.addEventListener("click", function () {
             paragraph.style.color = "black";
         });
     } else {
-        body.style.backgroundColor = "white";
+        body.style.backgroundColor = "#B8B8B8";
         body.style.color = "black";
         body.style.transition = "2s";
 

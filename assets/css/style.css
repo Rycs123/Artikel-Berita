@@ -13,9 +13,10 @@ a {
     color: black;
 }
 
+/* * artikel */
 a:hover {
     text-decoration: underline;
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 .navClass a {
@@ -40,10 +41,19 @@ a:hover {
     -webkit-filter: invert(1);
 }
 
-.navbar-brand a:hover {
-    color: #007bff; /* Warna garis bawah saat dihover */
-    transition: width 0.3s ease-in-out; /* Animasi lebar garis bawah */
+.navbar a:hover {
+    color: #ff8800;
+    transition: width 0.3s ease-in-out;
     text-decoration: none;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz-transition: width 0.3s ease-in-out;
+    -ms-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+}
+
+.navbar-brand img {
+    width: 400px;
+    height: auto;
 }
 
 i {

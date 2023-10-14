@@ -36,11 +36,13 @@ a:hover {
 }
 
 .navbar-toggler-icon {
-    background-image: url(../vendor/bootstrap-icons/icons/list-task.svg);
+    background-image: url(../../lib/bootstrap-icons/icons/list-task.svg);
     filter: invert(1);
     -webkit-filter: invert(1);
 }
-
+.navbar-toggler {
+    color: #ff8800;
+}
 .navbar a:hover {
     color: #ff8800;
     transition: width 0.3s ease-in-out;
@@ -78,6 +80,11 @@ i {
     margin-bottom: 10px;
 }
 
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #ff8800;
+}
+
 @media only screen and (max-width: 1190px) {
     .navbar-nav li {
         display: flex;
@@ -107,15 +114,15 @@ i {
         display: flex;
     }
     .navbar-brand img {
-        width: 75%;
+        width: 100%;
     }
 }
 
-@media (max-width: 500px) {
-    .navClass .navbar-brand a {
-        font-size: 12px;
+@media (max-width: 490px) {
+    .custom-text-nav1 a {
+        font-size: 13px;
     }
     .navbar-toggler-icon {
-        font-size: 12px;
+        font-size: 13px;
     }
 }
